@@ -149,6 +149,7 @@ namespace Programa_cool
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.SystemColors.ActiveCaption;
 			this.ClientSize = new System.Drawing.Size(284, 261);
 			this.Controls.Add(this.btnBack);
 			this.Controls.Add(this.lblX2);

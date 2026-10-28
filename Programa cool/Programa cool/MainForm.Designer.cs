@@ -59,12 +59,13 @@ namespace Programa_cool
 			// 
 			// btnSuma
 			// 
+			this.btnSuma.BackColor = System.Drawing.Color.Snow;
 			this.btnSuma.Location = new System.Drawing.Point(12, 99);
 			this.btnSuma.Name = "btnSuma";
 			this.btnSuma.Size = new System.Drawing.Size(102, 57);
 			this.btnSuma.TabIndex = 1;
 			this.btnSuma.Text = "Sumar";
-			this.btnSuma.UseVisualStyleBackColor = true;
+			this.btnSuma.UseVisualStyleBackColor = false;
 			this.btnSuma.Click += new System.EventHandler(this.BtnSumaClick);
 			// 
 			// btnMultiplicar
@@ -89,6 +90,7 @@ namespace Programa_cool
 			// 
 			// txtN1
 			// 
+			this.txtN1.BackColor = System.Drawing.SystemColors.HotTrack;
 			this.txtN1.Location = new System.Drawing.Point(12, 12);
 			this.txtN1.Name = "txtN1";
 			this.txtN1.Size = new System.Drawing.Size(54, 20);
@@ -96,6 +98,7 @@ namespace Programa_cool
 			// 
 			// txtN2
 			// 
+			this.txtN2.BackColor = System.Drawing.SystemColors.HotTrack;
 			this.txtN2.Location = new System.Drawing.Point(170, 12);
 			this.txtN2.Name = "txtN2";
 			this.txtN2.Size = new System.Drawing.Size(54, 20);
@@ -132,6 +135,7 @@ namespace Programa_cool
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.Color.Silver;
 			this.ClientSize = new System.Drawing.Size(243, 329);
 			this.Controls.Add(this.btnFormula);
 			this.Controls.Add(this.btnModulo);
