@@ -43,6 +43,7 @@ namespace Programa_cool
 			this.txtN1 = new System.Windows.Forms.TextBox();
 			this.txtN2 = new System.Windows.Forms.TextBox();
 			this.lblResultado = new System.Windows.Forms.Label();
+			this.btnModulo = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// btnDividir
@@ -106,11 +107,22 @@ namespace Programa_cool
 			this.lblResultado.Size = new System.Drawing.Size(212, 34);
 			this.lblResultado.TabIndex = 6;
 			// 
+			// btnModulo
+			// 
+			this.btnModulo.Location = new System.Drawing.Point(64, 240);
+			this.btnModulo.Name = "btnModulo";
+			this.btnModulo.Size = new System.Drawing.Size(102, 57);
+			this.btnModulo.TabIndex = 7;
+			this.btnModulo.Text = "Modulo";
+			this.btnModulo.UseVisualStyleBackColor = true;
+			this.btnModulo.Click += new System.EventHandler(this.BtnModuloClick);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(236, 262);
+			this.ClientSize = new System.Drawing.Size(236, 329);
+			this.Controls.Add(this.btnModulo);
 			this.Controls.Add(this.lblResultado);
 			this.Controls.Add(this.txtN2);
 			this.Controls.Add(this.txtN1);
@@ -123,6 +135,7 @@ namespace Programa_cool
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Button btnModulo;
 		private System.Windows.Forms.Label lblResultado;
 		private System.Windows.Forms.TextBox txtN2;
 		private System.Windows.Forms.TextBox txtN1;

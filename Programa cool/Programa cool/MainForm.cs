@@ -57,5 +57,12 @@ namespace Programa_cool
 			resultado=num1/num2;
 			lblResultado.Text="El resultado es: "+resultado.ToString();
 		}
+		
+		void BtnModuloClick(object sender, EventArgs e)
+		{
+			double num1=Convert.ToDouble(txtN1.Text),num2=Convert.ToDouble(txtN2.Text),resultado;
+			resultado=num1%num2;
+			lblResultado.Text="El resultado es: "+resultado.ToString();
+		}
 	}
 }
