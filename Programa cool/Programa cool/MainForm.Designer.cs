@@ -44,6 +44,7 @@ namespace Programa_cool
 			this.txtN2 = new System.Windows.Forms.TextBox();
 			this.lblResultado = new System.Windows.Forms.Label();
 			this.btnModulo = new System.Windows.Forms.Button();
+			this.btnFormula = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// btnDividir
@@ -109,7 +110,7 @@ namespace Programa_cool
 			// 
 			// btnModulo
 			// 
-			this.btnModulo.Location = new System.Drawing.Point(64, 240);
+			this.btnModulo.Location = new System.Drawing.Point(12, 240);
 			this.btnModulo.Name = "btnModulo";
 			this.btnModulo.Size = new System.Drawing.Size(102, 57);
 			this.btnModulo.TabIndex = 7;
@@ -117,11 +118,22 @@ namespace Programa_cool
 			this.btnModulo.UseVisualStyleBackColor = true;
 			this.btnModulo.Click += new System.EventHandler(this.BtnModuloClick);
 			// 
+			// btnFormula
+			// 
+			this.btnFormula.Location = new System.Drawing.Point(124, 241);
+			this.btnFormula.Name = "btnFormula";
+			this.btnFormula.Size = new System.Drawing.Size(100, 56);
+			this.btnFormula.TabIndex = 8;
+			this.btnFormula.Text = "Cambiar a la formula general";
+			this.btnFormula.UseVisualStyleBackColor = true;
+			this.btnFormula.Click += new System.EventHandler(this.BtnFormulaClick);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(236, 329);
+			this.ClientSize = new System.Drawing.Size(243, 329);
+			this.Controls.Add(this.btnFormula);
 			this.Controls.Add(this.btnModulo);
 			this.Controls.Add(this.lblResultado);
 			this.Controls.Add(this.txtN2);
@@ -135,6 +147,7 @@ namespace Programa_cool
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Button btnFormula;
 		private System.Windows.Forms.Button btnModulo;
 		private System.Windows.Forms.Label lblResultado;
 		private System.Windows.Forms.TextBox txtN2;

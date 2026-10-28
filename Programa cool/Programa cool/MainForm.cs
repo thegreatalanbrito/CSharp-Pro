@@ -64,5 +64,12 @@ namespace Programa_cool
 			resultado=num1%num2;
 			lblResultado.Text="El resultado es: "+resultado.ToString();
 		}
+		
+		void BtnFormulaClick(object sender, EventArgs e)
+		{
+			Formula l = new Formula();
+			this.Hide();
+			l.Show();
+		}
 	}
 }
